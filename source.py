@@ -1,7 +1,7 @@
 import socket
 import json
 
-host = '192.168.1.6'
+host = '0.0.0.0'
 port = 8080
 
 s = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
